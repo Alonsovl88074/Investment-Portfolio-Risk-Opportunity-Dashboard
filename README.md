@@ -1,6 +1,25 @@
 # Finance - Investment-Portfolio-Risk-Opportunity-Dashboard
 ## This project builds an institutional-grade data pipeline and a dashboard prototype for stock portfolio analysis. The pipeline integrates price, fundamental, and market sentiment data, modeling it into a star schema for optimal analytical performance. The resulting analysis calculates key metrics like Beta and Sharpe Ratio, allowing portfolio managers to make faster, more informed investment decisions by visualizing the risk-return trade-off across their entire portfolio
 
+**Live Demo:** [https://colab.research.google.com/drive/1hloi9T6IEWTsDlds8iVB9jDuLp_HdMbR?usp=sharing]
+
+## Project Overview
+
+This project simulates a real-world Business Intelligence scenario at an investment fund. It involves building an end-to-end ETL pipeline that ingests daily data from multiple CSV exports, models it into a robust Star Schema, and generates a dashboard prototype for portfolio managers to analyze risk and performance. The primary goal is to transform raw, disconnected data files into a unified, actionable source of truth for strategic decision-making.
+
+## Business Problem
+
+The portfolio management team at an investment fund receives daily and quarterly data exports from different systems:
+1.  **Market Data Provider:** A daily CSV with stock prices and volume.
+2.  **Fundamental Analysis Team:** A quarterly CSV with metrics like P/E Ratio and Market Cap.
+3.  **News Monitoring Service:** A daily CSV with sentiment scores for relevant news headlines.
+
+Currently, analysts spend hours manually combining these files in Excel, a process that is slow, error-prone, and lacks scalability. They need an automated pipeline to create a single, reliable view of their tech stock portfolio, allowing them to quickly assess the risk-return profile of each asset.
+
+## Solution Architecture
+
+The solution is a Python-based ETL pipeline designed to be orchestrated by a tool like Apache Airflow. The data flows as follows:
+
 ## Data Model (Star Schema)
 
 To ensure analytical performance and clarity, the data is modeled into a Star Schema, a core concept in Business Intelligence and Data Warehousing.

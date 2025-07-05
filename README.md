@@ -1,1 +1,2 @@
 # Finance - Investment-Portfolio-Risk-Opportunity-Dashboard
+## This project builds an institutional-grade data pipeline and a dashboard prototype for stock portfolio analysis. The pipeline integrates price, fundamental, and market sentiment data, modeling it into a star schema for optimal analytical performance. The resulting analysis calculates key metrics like Beta and Sharpe Ratio, allowing portfolio managers to make faster, more informed investment decisions by visualizing the risk-return trade-off across their entire portfolio

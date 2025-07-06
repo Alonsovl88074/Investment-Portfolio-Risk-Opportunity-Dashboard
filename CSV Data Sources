@@ -69,6 +69,8 @@ Advanced Risk/Return Metrics:
 
 --- Step 4: Creating dashboard visualizations ---
 
+(Snapshot Ploty.png)
+
 --- Step 5: Airflow DAG Definition (for orchestration) ---
 
 from airflow import DAG

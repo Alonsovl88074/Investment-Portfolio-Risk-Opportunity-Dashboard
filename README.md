@@ -65,7 +65,7 @@ This model separates what happened (facts) from who/what/when (dimensions), maki
 
 This chart is the centerpiece of the analysis, providing a complete portfolio overview in a single view.
 
- <!-- Replace with a screenshot of your actual chart -->
+(Snapshot Ploty.png)
 
 **Insights:**
 
